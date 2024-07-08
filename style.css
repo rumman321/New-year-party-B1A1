@@ -14,7 +14,13 @@
     border-radius: 8px;
     border: none;
     background: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
 }
+
+
 /* header section style */
 
 .banner-container{
@@ -168,10 +174,9 @@ margin-top: 50px;
 
 }
 .seceond-section-container button{
-    color: rgb(255, 255, 255);
+    
     font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
+    
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
@@ -190,5 +195,28 @@ margin-top: 50px;
     height: 464.65px;
 }
 
+/* third section  */
+
+.third-section{
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+
+    margin-bottom: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.third-section h3{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+}
 
 
