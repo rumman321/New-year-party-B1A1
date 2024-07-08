@@ -318,7 +318,9 @@ height: 140px;
     width: 1320px;
     height: 986.07px;
     margin: 0 auto;
-    border: 2px solid red;
+    margin: 120px;
+    border: 2px solid rgb(94, 255, 0);
+    position: relative;
 }
 
 .holiday-text-container{
@@ -352,3 +354,10 @@ height: 140px;
     font-weight: 500;
 }
 
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 77%;
+}
