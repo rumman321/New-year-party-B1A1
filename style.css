@@ -218,5 +218,97 @@ margin-top: 50px;
 font-size: 32px;
 font-weight: 600;
 }
+/* fouth-section style */
 
+.fouth-section{
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fouth-section-left{
+    height: 463px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.fouth-section-left h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+
+
+.fouth-section-left h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-top: 15px;
+margin-bottom: 20px ;
+}
+
+.fouth-section-left p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fouth-section-middle{
+    height: 463px;
+    width: 440px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.fouth-section-middle img{
+    height: 364px;
+    width: 364px;
+    padding: 30px;
+    border-radius: 50%;
+border: 15px solid rgb(255, 0, 0);
+
+}
+
+.fouth-section-right{
+    height: 463px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.fouth-section-right h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.fouth-section-right p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.fouth-section-right img{
+    width: 140px;
+height: 140px;
+}
 
