@@ -382,7 +382,7 @@ height: 140px;
 
 /* gift-item-container style */
 .gift-item-container{
-    border: 2px solid red;
+    
     width: 1320px;
     height: 1163px;
     margin: 0 auto;
@@ -412,3 +412,22 @@ height: 140px;
     font-size: 20px;
     font-weight: 400;
 }
+
+/* images container */
+
+.top-images{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.border{
+    margin: 0 auto;
+    width: 424px;
+    height: 450px;
+}
+.border img{
+    width: 424px;
+    height: 450px;
+}
+
