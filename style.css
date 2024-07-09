@@ -359,6 +359,7 @@ height: 140px;
     background-color: red;
     position: absolute;
     top: 77%;
+    border-radius: 0 0 15px 15px;
 }
 
 .giftbox-container{
@@ -377,4 +378,37 @@ height: 140px;
    
     margin-left: 100px;
     margin-top: 300px;
+}
+
+/* gift-item-container style */
+.gift-item-container{
+    border: 2px solid red;
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.gift-item-content h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.gift-item-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 25PX;
+}
+
+.gift-item-content p{
+    height: 64px;
+    width: 890px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
 }
